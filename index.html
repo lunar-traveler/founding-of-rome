@@ -66,7 +66,7 @@ Observe skill check (2, 1d4):
 
 You decide the (if:$playerInitiative &gt; 0)[silence](else:)[beauty] around the newly built city would help you (if:$playerInitiative &gt; 0)[find a way to dispose of your brother](else:)[relax tensions between you two].
 
-(if:$oppSeenVultures is 1 or $seenVultures is 1)[An air of excitement hanges over the air, and you know you must talk with your brother [[in the palace]]]
+(if:$oppSeenVultures is 1 or $seenVultures is true)[An air of excitement hanges over the air, and you know you must talk with your brother [[in the palace]]]
 (else:)[[Walk on in silence]]</tw-passagedata><tw-passagedata pid="10" name="something that he saw" tags="" position="1525,1050" size="100,100">Your brother (if:$isRomulus is true)[Remus](else:)[Romulus] explains that he has seen (if:$isRomulus is true)[Remus](else:)[Romulus]
 
 
